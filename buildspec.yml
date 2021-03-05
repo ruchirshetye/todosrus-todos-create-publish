@@ -4,3 +4,8 @@ phases:
   build:
     commands:
       - bash scripts/deploy.sh
+      
+      
+artifacts:
+  files:
+   - appspec.yaml
