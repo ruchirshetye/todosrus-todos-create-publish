@@ -42,7 +42,7 @@ EOM
 #    $DEPLOY_APPSPEC_FILE \
 #    s3://$DEPLOY_BUCKET_NAME/$DEPLOY_APPSPEC_FILE
 ls
-
+cat appspec.yaml
 # CREATE DEPLOYMENT
 #REVISION=revisionType=S3,s3Location={bucket=$DEPLOY_BUCKET_NAME,key=$DEPLOY_APPSPEC_FILE,bundleType=YAML}
 #aws deploy create-deployment \
