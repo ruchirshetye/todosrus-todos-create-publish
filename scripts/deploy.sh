@@ -49,4 +49,4 @@ ls
 #  --application-name $DEPLOY_APPLICATION_NAME \
  # --deployment-group-name $DEPLOY_DEPLOYMENT_GROUP_NAME \
  # --deployment-config-name CodeDeployDefault.LambdaAllAtOnce \
-  --revision $REVISION
+ # --revision $REVISION
